@@ -99,6 +99,6 @@
     $tele1->setMarca('Samsung');
     $tele1->setCosto('$40,000');
 
-    echo 'La television es de: '.$tele1->getPulgadas(). ' de la marca '.$tele1->getMarca().' y tiene un costo de '.$tele1->getCosto();
+    echo 'La pantalla es de: '.$tele1->getPulgadas(). ' de la marca '.$tele1->getMarca().' y tiene un costo de '.$tele1->getCosto();
 
 ?>
