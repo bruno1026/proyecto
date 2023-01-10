@@ -101,4 +101,12 @@
 
     echo 'La pantalla es de: '.$tele1->getPulgadas(). ' de la marca '.$tele1->getMarca().' y tiene un costo de '.$tele1->getCosto();
 
+    echo '<br>';
+
+    $gym1 = new Gimnasio();
+    $gym1->setHorario('6:00 AM - 11:59PM');
+    $gym1->setSuscripcion('Premium');
+    $gym1->setCosto('$500');
+
+    echo 'El horario del gimnasio es de las : '.$gym1->getHorario(). ' con una suscripcion '.$gym1->getSuscripcion().' y tiene un costo de '.$gym1->getCosto();
 ?>
