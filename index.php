@@ -19,18 +19,18 @@
 
     $celular1 = new Celular();
     $celular1->setMarca('Apple');
-    $celular1->setModelo('IPHONE 11 PRO MAX');
-    $celular1->setColorc('Rojo');
+    $celular1->setMemoria('8GB');
+    $celular1->setGama('Media');
 
-    echo 'Mi celular es un :'.$celular1->getMarca(). ' El modelo es: '.$celular1->getModelo(). ' Y es de color: '.$celular1->getColorc();
+    echo 'Mi celular es un :'.$celular1->getMarca(). ' El modelo es: '.$celular1->getMemoria(). ' Y es de color: '.$celular1->getGama();
     echo '<br>';
 
     $computadora1 = new Computadora();
-    $computadora1->setMarca1('ASUS ROG');
-    $computadora1->setProcesador('RYZEN 5');
+    $computadora1->setMarca('ASUS ROG');
+    $computadora1->setModelo('RYZEN 5');
     $computadora1->setAlmacenamiento('2 TB');
 
-    echo 'Mi computadora es de la marca: '.$computadora1->getMarca1(). 'tiene un procesador: '.$computadora1->getProcesador(). 'cuenta con un almacenamiento de: '.$computadora1->getAlmacenamiento();
+    echo 'Mi computadora es de la marca: '.$computadora1->getMarca(). 'modelo: '.$computadora1->getModelo(). 'cuenta con un almacenamiento de: '.$computadora1->getAlmacenamiento();
     echo '<br>';
 
     $mochila1 = new Mochila();
