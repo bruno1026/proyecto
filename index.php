@@ -10,6 +10,7 @@
     require 'casa.php';
     require 'television.php';
     require 'lavadora.php';
+    require 'teclado.php';
 
     $persona1 = new Persona();
     $persona1->setId(3);
@@ -100,5 +101,18 @@
     $tele1->setCosto('$40,000');
 
     echo 'La television es de: '.$tele1->getPulgadas(). ' de la marca '.$tele1->getMarca().' y tiene un costo de '.$tele1->getCosto();
+
+    echo '<br>';
+
+    $teclado1 = new Teclado();
+    $teclado1->setTipo('Mecanico');
+    $teclado1->setColor('Negro con RGB');
+    $teclado1->setMarca('SteelSeries');
+
+    echo 'Mi teclado es de tipo: '.$teclado1->getTipo(). ' es de color: '.$teclado1->getColor(). 'y es de la marca: '.$teclado1->getMarca();
+    
+    echo '<br>';
+
+    echo '<img src="images/git.jpg">'
 
 ?>
