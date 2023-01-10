@@ -1,32 +1,31 @@
 <?php
-    class Celular{
-
+    class Celular {
         private $marca;
-        private $modelo;
-        private $colorc;
-        
-        public function getMarca(){//--------MARCA
-            return $this->marca;
+        private $memoria;
+        private $gama;
+
+        public function getMarca(){
+            return $this->marca; 
         }
 
         public function setMarca($marca){
-            $this->marca = $marca;
-        }//----------------------------------MARCA
-
-        public function getModelo(){//--------MODELO
-            return $this->modelo;
+            $this->marca = $marca; 
         }
 
-        public function setModelo($modelo){
-            $this->modelo = $modelo;
-        }//-----------------------------------MODELO
-
-        public function getColorc(){//--------COLOR
-            return $this->colorc;
+        public function getMemoria(){
+            return $this->memoria; 
         }
 
-        public function setColorc($colorc){
-            $this->color = $colorc;
-        }//-----------------------------------COLOR
+        public function setMemoria($memoria){
+            $this->memoria = $memoria; 
+        }
+
+        public function getGama(){
+            return $this->gama; 
+        }
+
+        public function setGama($gama){
+            $this->gama = $gama; 
+        }
     }
 ?>
