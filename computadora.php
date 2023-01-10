@@ -1,33 +1,39 @@
 <?php
-    class Computadora{
-        private $marca1;
-        private $procesador;
+    class Computadora {
+        private $marca;
+        private $modelo;
         private $almacenamiento;
+        private $ram;
 
-        public function getMarca1(){//--------MARCA COMPUTADORA
-            return $this->marca1;
+        public function getMarca(){
+            return $this->marca; 
         }
 
-        public function setMarca1($marca1){
-            $this->marca1 = $marca1;
-        }//----------------------------------MARCA COMPUTADORA
-
-
-        public function getProcesador(){//--------PROCESADOR
-            return $this->procesador;
+        public function setMarca($marca){
+            $this->marca = $marca; 
         }
 
-        public function setProcesador($procesador){
-            $this->procesador = $procesador;
-        }//--------------------------------------------------PROCESADOR
+        public function getModelo(){
+            return $this->modelo; 
+        }
 
-        public function getAlmacenamiento(){//--------ALMACENAMIENTO
-            return $this->almacenamiento;
+        public function setModelo($modelo){
+            $this->modelo = $modelo; 
+        }
+
+        public function getAlmacenamiento(){
+            return $this->almacenamiento; 
         }
 
         public function setAlmacenamiento($almacenamiento){
-            $this->almacenamiento = $almacenamiento;
-        }//--------------------------------------------------ALMACENAMIENTO
+            $this->almacenamiento = $almacenamiento; 
+        }
 
+        public function getRam(){
+            return $this->ram; 
+        }
+
+        public function setRam($ram){
+            $this->ram = $ram; 
+        }
     }
-?>
