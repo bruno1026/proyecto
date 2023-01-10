@@ -101,21 +101,12 @@
 
     echo 'La pantalla es de: '.$tele1->getPulgadas(). ' de la marca '.$tele1->getMarca().' y tiene un costo de '.$tele1->getCosto();
 
-    echo '<p>';
+    echo '<br>';
 
-    echo '¿Quieres colaborar con otros desarrolladores? Crea una cuenta de Github aquí';
-    echo '<p>';
-    echo '<a href="https://github.com/">Github</a>';
+    $gym1 = new Gimnasio();
+    $gym1->setHorario('6:00 AM - 11:59PM');
+    $gym1->setSuscripcion('Premium');
+    $gym1->setCosto('$500');
 
-    echo '<p>';
-
-    echo 'Aquí hay un curso de React buenísimo';
-    echo '<p>';
-    echo '<a href="https://www.youtube.com/watch?v=0C5yFwOYhAk&t=1809s">React </a>';
-
-    echo '<p>';
-
-    echo 'Conoce todo sobre el futuro de la SIM virtual';
-    echo '<p>';
-    echo '<a href="https://support.apple.com/es-lamr/HT209044">eSIM Apple</a>';
+    echo 'El horario del gimnasio es de las : '.$gym1->getHorario(). ' con una suscripcion '.$gym1->getSuscripcion().' y tiene un costo de '.$gym1->getCosto();
 ?>
