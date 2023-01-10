@@ -100,5 +100,6 @@
     $tele1->setCosto('$40,000');
 
     echo 'La pantalla es de: '.$tele1->getPulgadas(). ' de la marca '.$tele1->getMarca().' y tiene un costo de '.$tele1->getCosto();
+    echo '<p>';
 
 ?>
